@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MovieZone - Reviews & Trailers</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #111; color: #fff; margin: 0; padding: 0; }
+    header { background: #222; padding: 20px; text-align: center; }
+    h1 { margin: 0; font-size: 2em; }
+    .movie { border-bottom: 1px solid #444; padding: 15px; }
+    .movie h2 { margin: 0 0 10px; }
+    .movie p { margin: 5px 0; }
+    a { color: #1e90ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>MovieZone</h1>
+    <p>Latest Movie Reviews & Trailers</p>
+  </header>
+
+  <div class="movie">
+    <h2>Movie Title 1</h2>
+    <p><strong>Rating:</strong> 8.5/10</p>
+    <p>Short review goes here. This movie is thrilling and full of action!</p>
+    <p><a href="https://youtube.com" target="_blank">Watch Trailer</a></p>
+  </div>
+
+  <div class="movie">
+    <h2>Movie Title 2</h2>
+    <p><strong>Rating:</strong> 7.2/10</p>
+    <p>Interesting storyline with great acting performances.</p>
+    <p><a href="https://youtube.com" target="_blank">Watch Trailer</a></p>
+  </div>
+
+</body>
+</html>
